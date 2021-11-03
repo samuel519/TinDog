@@ -1,0 +1,176 @@
+/* ELEMENTS       Priority specific-least specific = ID, class, then element  */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.navbar {
+  padding-bottom: 5.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* BUTTONS */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image {
+  right: 25%;
+  position: absolute;
+  transform: rotate(25deg);
+  width: 20%;
+}
+
+/* FEATURE SECTION */
+
+#features {
+  position: relative;
+  z-index: 1; /* Z-index is not necessary here because #features is below the title image in doc flow, thus already on top/closer on z-index. */
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-text {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* PRESS SECTION */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  padding: 0 1%;
+  width: 17%;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    margin-top: 10px;
+    position: static;
+    transform: rotate(0);
+    width: 35%;
+  }
+}
+
+/* FOOTER SECTION */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #8f8f8f;
+}
