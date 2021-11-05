@@ -1,2 +1,2 @@
 # TinDog
-Practice with HTML, CSS in Bootstrap making dog dating site.
+Built a demo dog dating website using HTML, CSS and Bootstrap.
